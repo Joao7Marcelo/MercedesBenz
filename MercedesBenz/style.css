@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --font-modelos-color: rgb(154, 154, 154);
+
+    --font-barra-color: rgb(255, 255, 255);
+    font-size: 62.5; 
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+barra{
+    font-family: Italiana;
+    text-align: cententer;
+    align-items: center;
+    background-color: black;
+    display: flex;
+    gap: 1.6rem;
+    padding: 3rem;
+    color: var(--font-barra-color);
+    width: 100%;
+    height: 3rem;
+
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+
+
+.text1barra{
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+}
+
+.text1barra h4{
+    
+    
+
+}
+
+
+.text2barra{
+    display: flex;
+    gap: 3rem;
+    padding: auto;    
+}
+header{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo{
+    
+    justify-content: center;
+    margin: auto;
+    display: block;
+    font-family: italiana;
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+}
+
+.modelos{
+    color: var(--font-modelos-color);
+    font-size: 1.3rem;
+    display: block;
+    text-transform: uppercase;
+    display: flex;
+    gap: 9rem;
+    margin: auto;
+}
+
+.modelos h4{
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.carros{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.carro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+
+
+}
+
+.carro p{
+    color: black;
+    font-size: 1.3rem;
+    display: block;
+    text-transform: uppercase;
+    display: flex;
+    gap: 9rem;
+    margin: auto;
+
+}
